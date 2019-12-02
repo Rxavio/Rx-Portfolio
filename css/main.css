@@ -601,6 +601,7 @@ margin-left: 2%;
   background: var(--color-primary);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   width: 100%;
+  margin-bottom: -5px;
   font: bold 16px sans-serif;
   padding: 55px 50px;
   display: inline-block;
@@ -735,7 +736,20 @@ color: var(--mainWhite);
   margin: 10px auto 0 auto;
   float: left;
 }
-
+.footer{
+  padding: 1.8rem;
+  background: var(--color-primary);
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Rubik', sans-serif;
+  color: var(--hardgrey);
+  /* text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12); */
+}
+.footer span{
+  color: var(--mainWhite);
+}
 
 
 @media only screen and (max-width: 880px) {
